@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<custom_alabamart>
+			<general>
+				<token_url>http://api.clicknship.com.ng/Token</token_url>
+				<username>cnsdemoapiacct</username>
+				<password>ClickNShip$12345</password>
+				<grant_type>password</grant_type>
+				<delivery_fee_url>http://api.clicknship.com.ng/clicknship/Operations/DeliveryFee</delivery_fee_url>
+				<origin>Oyo</origin>
+			</general>
+		</custom_alabamart>
+		<carriers>
+			<custom>
+				<model>Custom\Alabamart\Model\Carrier\Custom</model>
+				<active>1</active>
+				<title>custom</title>
+				<name>custom</name>
+				<price>1000</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+				<origin>Oyo</origin>
+			</custom>
+		</carriers>
+	</default>
+</config>

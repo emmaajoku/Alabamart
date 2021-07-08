@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+	<type instance="Custom\Alabamart\Model\Cache\Alabamart" name="alabamart_cache_tag" translate="label,description">
+		<label>Alabamart</label>
+		<description/>
+	</type>
+</config>
